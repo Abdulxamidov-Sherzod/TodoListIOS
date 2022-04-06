@@ -187,9 +187,9 @@
 		276F3EF427FD90F2006C4EA5 /* TodoList */ = {
 			isa = PBXGroup;
 			children = (
-				27464B0927FDA61100F78D0B /* Controller */,
-				27464B0827FDA60000F78D0B /* View */,
 				27464B0727FDA5E400F78D0B /* Model */,
+				27464B0827FDA60000F78D0B /* View */,
+				27464B0927FDA61100F78D0B /* Controller */,
 				276F3EFE27FD90F2006C4EA5 /* Assets.xcassets */,
 				276F3F0027FD90F2006C4EA5 /* LaunchScreen.storyboard */,
 				276F3F0327FD90F2006C4EA5 /* Info.plist */,
