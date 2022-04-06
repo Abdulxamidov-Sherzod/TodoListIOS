@@ -76,6 +76,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27464B0727FDA5E400F78D0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				276F3F3127FD931B006C4EA5 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27464B0827FDA60000F78D0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				27464B0E27FDA62E00F78D0B /* CVC */,
+				27464B0D27FDA62E00F78D0B /* TVC */,
+				27464B0F27FDA62E00F78D0B /* VC */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		27464B0927FDA61100F78D0B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				27464B0C27FDA62700F78D0B /* CVC */,
+				27464B0B27FDA62000F78D0B /* TVC */,
+				27464B0A27FDA61A00F78D0B /* VC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		27464B0A27FDA61A00F78D0B /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				276F3F0A27FD92B7006C4EA5 /* WalkTough.swift */,
+				276F3F0E27FD92B7006C4EA5 /* LoginVC.swift */,
+				276F3F0C27FD92B7006C4EA5 /* MainVC.swift */,
+				276F3F1C27FD92F1006C4EA5 /* AddNewTask.swift */,
+				276F3F1B27FD92F1006C4EA5 /* ProjectsVC.swift */,
+				276F3F2127FD92F1006C4EA5 /* ProjectTV.swift */,
+				276F3F1E27FD92F1006C4EA5 /* TabbarItem.swift */,
+				276F3EF527FD90F2006C4EA5 /* AppDelegate.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		27464B0B27FDA62000F78D0B /* TVC */ = {
+			isa = PBXGroup;
+			children = (
+				276F3F2327FD92F2006C4EA5 /* Cell.swift */,
+				276F3F1A27FD92F1006C4EA5 /* CollectionCell.swift */,
+				276F3F2227FD92F2006C4EA5 /* TableViewCell.swift */,
+			);
+			path = TVC;
+			sourceTree = "<group>";
+		};
+		27464B0C27FDA62700F78D0B /* CVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CVC;
+			sourceTree = "<group>";
+		};
+		27464B0D27FDA62E00F78D0B /* TVC */ = {
+			isa = PBXGroup;
+			children = (
+				276F3F1D27FD92F1006C4EA5 /* Cell.xib */,
+				276F3F1727FD92F0006C4EA5 /* CollectionCell.xib */,
+				276F3F1F27FD92F1006C4EA5 /* TableViewCell.xib */,
+			);
+			path = TVC;
+			sourceTree = "<group>";
+		};
+		27464B0E27FDA62E00F78D0B /* CVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CVC;
+			sourceTree = "<group>";
+		};
+		27464B0F27FDA62E00F78D0B /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				276F3F0B27FD92B7006C4EA5 /* WalkTough.xib */,
+				276F3F0927FD92B7006C4EA5 /* LoginVC.xib */,
+				276F3F0D27FD92B7006C4EA5 /* MainVC.xib */,
+				276F3F1927FD92F0006C4EA5 /* AddNewTask.xib */,
+				276F3F1827FD92F0006C4EA5 /* ProjectsVC.xib */,
+				276F3F2027FD92F1006C4EA5 /* ProjectTV.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
 		276F3EE927FD90F2006C4EA5 = {
 			isa = PBXGroup;
 			children = (
@@ -97,30 +187,12 @@
 		276F3EF427FD90F2006C4EA5 /* TodoList */ = {
 			isa = PBXGroup;
 			children = (
-				276F3F3127FD931B006C4EA5 /* Model.swift */,
-				276F3F0E27FD92B7006C4EA5 /* LoginVC.swift */,
-				276F3F0927FD92B7006C4EA5 /* LoginVC.xib */,
-				276F3F0C27FD92B7006C4EA5 /* MainVC.swift */,
-				276F3F0D27FD92B7006C4EA5 /* MainVC.xib */,
-				276F3F0A27FD92B7006C4EA5 /* WalkTough.swift */,
-				276F3F0B27FD92B7006C4EA5 /* WalkTough.xib */,
-				276F3EF527FD90F2006C4EA5 /* AppDelegate.swift */,
+				27464B0927FDA61100F78D0B /* Controller */,
+				27464B0827FDA60000F78D0B /* View */,
+				27464B0727FDA5E400F78D0B /* Model */,
 				276F3EFE27FD90F2006C4EA5 /* Assets.xcassets */,
 				276F3F0027FD90F2006C4EA5 /* LaunchScreen.storyboard */,
 				276F3F0327FD90F2006C4EA5 /* Info.plist */,
-				276F3F1C27FD92F1006C4EA5 /* AddNewTask.swift */,
-				276F3F1927FD92F0006C4EA5 /* AddNewTask.xib */,
-				276F3F2327FD92F2006C4EA5 /* Cell.swift */,
-				276F3F1D27FD92F1006C4EA5 /* Cell.xib */,
-				276F3F1A27FD92F1006C4EA5 /* CollectionCell.swift */,
-				276F3F1727FD92F0006C4EA5 /* CollectionCell.xib */,
-				276F3F1B27FD92F1006C4EA5 /* ProjectsVC.swift */,
-				276F3F1827FD92F0006C4EA5 /* ProjectsVC.xib */,
-				276F3F2127FD92F1006C4EA5 /* ProjectTV.swift */,
-				276F3F2027FD92F1006C4EA5 /* ProjectTV.xib */,
-				276F3F1E27FD92F1006C4EA5 /* TabbarItem.swift */,
-				276F3F2227FD92F2006C4EA5 /* TableViewCell.swift */,
-				276F3F1F27FD92F1006C4EA5 /* TableViewCell.xib */,
 			);
 			path = TodoList;
 			sourceTree = "<group>";
@@ -153,7 +225,7 @@
 				276F3EEE27FD90F2006C4EA5 /* Sources */,
 				276F3EEF27FD90F2006C4EA5 /* Frameworks */,
 				276F3EF027FD90F2006C4EA5 /* Resources */,
-				5B5564162C1538A5CC7E3CF9 /* [CP] Embed Pods Frameworks */,
+				E905839CEB04D77175649F98 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,23 +291,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5B5564162C1538A5CC7E3CF9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TodoList/Pods-TodoList-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TodoList/Pods-TodoList-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TodoList/Pods-TodoList-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D7EEBB3E15DF56673839E538 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,6 +311,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E905839CEB04D77175649F98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TodoList/Pods-TodoList-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TodoList/Pods-TodoList-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TodoList/Pods-TodoList-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
