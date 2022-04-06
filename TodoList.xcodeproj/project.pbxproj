@@ -123,7 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				276F3F2327FD92F2006C4EA5 /* Cell.swift */,
-				276F3F1A27FD92F1006C4EA5 /* CollectionCell.swift */,
 				276F3F2227FD92F2006C4EA5 /* TableViewCell.swift */,
 			);
 			path = TVC;
@@ -132,6 +131,7 @@
 		27464B0C27FDA62700F78D0B /* CVC */ = {
 			isa = PBXGroup;
 			children = (
+				276F3F1A27FD92F1006C4EA5 /* CollectionCell.swift */,
 			);
 			path = CVC;
 			sourceTree = "<group>";
@@ -140,7 +140,6 @@
 			isa = PBXGroup;
 			children = (
 				276F3F1D27FD92F1006C4EA5 /* Cell.xib */,
-				276F3F1727FD92F0006C4EA5 /* CollectionCell.xib */,
 				276F3F1F27FD92F1006C4EA5 /* TableViewCell.xib */,
 			);
 			path = TVC;
@@ -149,6 +148,7 @@
 		27464B0E27FDA62E00F78D0B /* CVC */ = {
 			isa = PBXGroup;
 			children = (
+				276F3F1727FD92F0006C4EA5 /* CollectionCell.xib */,
 			);
 			path = CVC;
 			sourceTree = "<group>";
